@@ -8,21 +8,28 @@ This repository demonstrates:
 * meaningfully-named and convention-abiding functions and variables to ensure **clean code**
 
 
-**Installing**
-Install dependencies:
-
+### Installing
+ Install dependencies:
+ ```
 npm install
-Run a mongoDB server:
-
+```
+ Run a mongoDB server:
+ ```
 mongod
-Seed the database:
-
+```
+ Seed the database:
+ ```
 mongo < server/db/seeds.js
-Run webpack:
-
+```
+ Run webpack:
+ ```
 npm run build
-Run express:
-
+```
+ Run express:
+ ```
 npm run server:dev
-Using
-The application is running on port 300 so visit http://localhost:3000.
+```
+ ### Using
+ The application is running on port 300 so visit http://localhost:3000.
+
+
